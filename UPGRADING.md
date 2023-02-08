@@ -1,11 +1,3 @@
-## 2.8.6 > 2.8.7
-
-*Nothing to report*
-
-## 2.8.5 > 2.8.6
-
-*Nothing to report*
-
 ## 2.8.4 > 2.8.5
 
 *Nothing to report*

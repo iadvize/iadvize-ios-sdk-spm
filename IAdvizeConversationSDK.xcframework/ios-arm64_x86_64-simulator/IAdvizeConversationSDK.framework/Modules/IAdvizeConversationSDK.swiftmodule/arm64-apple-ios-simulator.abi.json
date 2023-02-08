@@ -47975,7 +47975,10 @@
             "declKind": "EnumElement",
             "usr": "s:22IAdvizeConversationSDK15ApplicationModeO3devyA2CmF",
             "mangledName": "$s22IAdvizeConversationSDK15ApplicationModeO3devyA2CmF",
-            "moduleName": "IAdvizeConversationSDK"
+            "moduleName": "IAdvizeConversationSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -48012,7 +48015,10 @@
             "declKind": "EnumElement",
             "usr": "s:22IAdvizeConversationSDK15ApplicationModeO4prodyA2CmF",
             "mangledName": "$s22IAdvizeConversationSDK15ApplicationModeO4prodyA2CmF",
-            "moduleName": "IAdvizeConversationSDK"
+            "moduleName": "IAdvizeConversationSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -48116,7 +48122,8 @@
         "mangledName": "$s22IAdvizeConversationSDK15ApplicationModeO",
         "moduleName": "IAdvizeConversationSDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -49281,13 +49288,6 @@
             "printedName": "JSONEncodable",
             "usr": "s:13iAdvizeApollo13JSONEncodableP",
             "mangledName": "$s13iAdvizeApollo13JSONEncodableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "GraphQLInputValue",
-            "printedName": "GraphQLInputValue",
-            "usr": "s:13iAdvizeApollo17GraphQLInputValueP",
-            "mangledName": "$s13iAdvizeApollo17GraphQLInputValueP"
           }
         ]
       },
@@ -49860,6 +49860,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "ScalarType",
+            "printedName": "ScalarType",
+            "usr": "s:16iAdvizeApolloAPI10ScalarTypeP",
+            "mangledName": "$s16iAdvizeApolloAPI10ScalarTypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ApolloCompatible",
             "printedName": "ApolloCompatible",
             "children": [
@@ -49877,8 +49884,8 @@
                 ]
               }
             ],
-            "usr": "s:17iAdvizeApolloCore0B10CompatibleP",
-            "mangledName": "$s17iAdvizeApolloCore0B10CompatibleP"
+            "usr": "s:18iAdvizeApolloUtils0B10CompatibleP",
+            "mangledName": "$s18iAdvizeApolloUtils0B10CompatibleP"
           },
           {
             "kind": "Conformance",
@@ -49893,13 +49900,6 @@
             "printedName": "JSONEncodable",
             "usr": "s:13iAdvizeApollo13JSONEncodableP",
             "mangledName": "$s13iAdvizeApollo13JSONEncodableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "GraphQLInputValue",
-            "printedName": "GraphQLInputValue",
-            "usr": "s:13iAdvizeApollo17GraphQLInputValueP",
-            "mangledName": "$s13iAdvizeApollo17GraphQLInputValueP"
           }
         ]
       },
